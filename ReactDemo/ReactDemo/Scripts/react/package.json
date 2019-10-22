@@ -1,0 +1,24 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "React integration",
+  "main": "app.js",
+  "scripts": {
+	"webpack": "webpack", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hammad Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
